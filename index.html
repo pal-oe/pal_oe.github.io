@@ -7,6 +7,16 @@
 	<style>
 		/* Global styles */
 body {
+	background-image: url(left-image.jpg), url(right-image.jpg);
+    background-repeat: no-repeat;
+    background-position: left top, right top;
+}
+
+/* Media queries */
+@media screen and (max-width: 600px) {
+    header, main, footer {
+        padding: 10px;
+    }
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
